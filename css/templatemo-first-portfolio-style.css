@@ -867,7 +867,7 @@ strong {
 }
 
 .custom-form button[type="submit"] {
-  background: var(--secondary-color);
+  background-image:linear-gradient(to right, #eb3349, #753a88);
   border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -878,7 +878,7 @@ strong {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
-  background: var(--primary-color);
+ background-image:linear-gradient(to right, #eb3349, #753a88);
   border-color: transparent;
 }
 
