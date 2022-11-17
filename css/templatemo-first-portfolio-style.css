@@ -260,13 +260,13 @@ strong {
 .navbar .custom-btn:hover {
   background: var(--white-color);
   border-color: transparent;
-  color: var(--secondary-color);
+  color:black;
 }
 
 .custom-btn {
   background: var(--secondary-color);
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color:black;
   font-weight: var(--font-weight-bold);
   padding: 12px 24px;
 }
@@ -274,7 +274,7 @@ strong {
 .custom-btn:hover {
   background: var(--primary-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  color: var(--white-color);
+  color:black;
 }
 
 .custom-border-btn {
@@ -286,7 +286,7 @@ strong {
 .custom-border-btn:hover {
   background: var(--secondary-color);
   border-color: var(--secondary-color);
-  color: var(--white-color);
+  color:black;
 }
 
 .custom-link {
@@ -329,7 +329,7 @@ strong {
 
 .is-sticky .navbar .custom-btn:hover {
   background: white;
-  color: white;
+  color:black;
 }
 
 .navbar {
