@@ -266,7 +266,7 @@ strong {
 .custom-btn {
   background: var(--secondary-color);
   border-radius: var(--border-radius-large);
-  color:black;
+  color:white;
   font-weight: var(--font-weight-bold);
   padding: 12px 24px;
 }
@@ -274,7 +274,7 @@ strong {
 .custom-btn:hover {
   background: var(--primary-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  color:black;
+  color:white;
 }
 
 .custom-border-btn {
@@ -324,7 +324,7 @@ strong {
 
 .is-sticky .navbar .custom-btn {
   border-color: white;
-  color: black;
+  color: white;
 }
 
 .is-sticky .navbar .custom-btn:hover {
