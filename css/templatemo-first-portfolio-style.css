@@ -260,13 +260,13 @@ strong {
 .navbar .custom-btn:hover {
   background: var(--white-color);
   border-color: transparent;
-  color:black;
+  color: var(--secondary-color);
 }
 
 .custom-btn {
   background: var(--secondary-color);
   border-radius: var(--border-radius-large);
-  color:white;
+  color:black;
   font-weight: var(--font-weight-bold);
   padding: 12px 24px;
 }
@@ -274,7 +274,7 @@ strong {
 .custom-btn:hover {
   background: var(--primary-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  color:white;
+  color:black;
 }
 
 .custom-border-btn {
@@ -286,7 +286,7 @@ strong {
 .custom-border-btn:hover {
   background: var(--secondary-color);
   border-color: var(--secondary-color);
-  color:black;
+  color: var(--white-color);
 }
 
 .custom-link {
@@ -329,8 +329,8 @@ strong {
 
 .is-sticky .navbar .custom-btn:hover {
   background: white;
-  color:black;
-}
+  color: black;
+}	
 
 .navbar {
   background: transparent;
@@ -1068,7 +1068,7 @@ strong {
   .navbar-toggler .navbar-toggler-icon,
   .navbar-toggler .navbar-toggler-icon:before,
   .navbar-toggler .navbar-toggler-icon:after {
-    background: var(white);
+    background: black;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
