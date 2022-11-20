@@ -867,7 +867,7 @@ strong {
 }
 
 .custom-form button[type="submit"] {
-  background-image:linear-gradient(to right, #eb3349, #753a88);
+  background: var(--secondary-color);
   border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -878,7 +878,7 @@ strong {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
- background-image:linear-gradient(to right, #eb3349, #753a88);
+  background: var(--primary-color);
   border-color: transparent;
 }
 
@@ -1068,7 +1068,7 @@ strong {
   .navbar-toggler .navbar-toggler-icon,
   .navbar-toggler .navbar-toggler-icon:before,
   .navbar-toggler .navbar-toggler-icon:after {
-    background: black;
+    background: white;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
