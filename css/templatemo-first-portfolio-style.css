@@ -260,7 +260,7 @@ strong {
 .navbar .custom-btn:hover {
   background: var(--white-color);
   border-color: transparent;
-  color: var(--secondary-color);
+  color:black;
 }
 
 .custom-btn {
@@ -315,7 +315,7 @@ strong {
 
 .is-sticky .navbar-brand,
 .is-sticky .navbar-brand:hover {
-  color:white);
+  color:white;
 }
 
 .is-sticky .navbar-nav .nav-link {
