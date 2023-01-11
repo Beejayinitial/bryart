@@ -181,7 +181,7 @@ strong {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background-image: url(images/art4.png);
+  background-image: url("images/art4.png");
 }
 
 .spinner {
